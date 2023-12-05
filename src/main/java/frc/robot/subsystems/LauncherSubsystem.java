@@ -4,14 +4,18 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class LauncherSubsystem extends SubsystemBase {
   
-    // TODO: Create (and initalize) member variables
-    // We'll need to create any motor controllers here
+  // TODO: Create (and initalize) member variables
+  // We'll need to create any motor controllers here
 
   public LauncherSubsystem() {
     // TODO: Add parameters to this subsystem (if any)
   }
 
-  // TODO: Create functions for controlling/commanding the motor controllers
-  // Hint: The Commands will call these functions to set the motors
-
+  /*
+  Sets the motors using a forward speed and a rotational speed
+  using standard arcade drive.
+  */
+  public void setLauncherPower(float launchPower) {
+    // TODO: Implement
+  }
 }

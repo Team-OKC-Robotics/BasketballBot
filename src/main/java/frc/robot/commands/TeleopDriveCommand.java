@@ -1,14 +1,16 @@
 package frc.robot.commands;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
+import edu.wpi.first.wpilibj2.command.button.CommandJoystick;
+import frc.robot.subsystems.DrivetrainSubsystem;
 
 public class TeleopDriveCommand extends CommandBase {
 
     // TODO: Add member variables
     // We'll need a gamepad and the drivetrain subsystem
 
-    public TeleopDriveCommand() {
-        // TODO: Add parameters to constructor
+    public TeleopDriveCommand(DrivetrainSubsystem drivetrainSubsystem, CommandJoystick commandJoystick) {
+        // TODO: Set member variables
 
         // TODO: Use addRequirements() to add required subsystem
     }

@@ -1,15 +1,15 @@
 package frc.robot.commands;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
+import frc.robot.subsystems.DrivetrainSubsystem;
 
 public class TimedDriveCommand extends CommandBase {
 
     // TODO: Add member variables
     // We'll need the drivetrain subsystem at least
 
-    public TimedDriveCommand() {
-        // TODO: Add parameters to constructor
-        // Hint: We'll need to know how long to run the command and what speed
+    public TimedDriveCommand(DrivetrainSubsystem drivetrainSubsystem, float duration_seconds, float forward_speed) {
+        // TODO: Set member variables
 
         // TODO: Use addRequirements() to add required subsystem
     }

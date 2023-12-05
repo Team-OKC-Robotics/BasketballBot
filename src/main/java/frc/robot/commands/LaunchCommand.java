@@ -1,14 +1,15 @@
 package frc.robot.commands;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
+import frc.robot.subsystems.LauncherSubsystem;
 
 public class LaunchCommand extends CommandBase {
 
     // TODO: Add member variables
     // We'll need the launcher subystem
 
-    public LaunchCommand() {
-        // TODO: Add parameters to constructor
+    public LaunchCommand(LauncherSubsystem launcherSubsystem) {
+        // TODO: Set member variables
 
         // TODO: Use addRequirements() to add required subsystem
     }
